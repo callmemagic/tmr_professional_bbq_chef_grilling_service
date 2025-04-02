@@ -1,7 +1,104 @@
 "use client";
 
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
+import { MenuAccordion } from "@/components/ui/menu-accordion";
 import Image from "next/image";
+
+const menuAA = [
+  "8位起",
+  "厚肉元貝",
+  "游水大海虾",
+  "10頭大連鲍魚",
+  "本地大蜆",
+  "蜜汁雞中亦",
+  "蒜蓉有骨豬扒",
+  "孜然雞肉串8串装",
+  "黑椒西冷薄牛扒",
+  "咖哩尤魚翼",
+  "泰式豬頸肉",
+  "廚C腸仔",
+  "墨魚丸",
+  "貢丸",
+  "芝士丸",
+  "和牛牛丸",
+  "玉米",
+  "金菇",
+  "鮮冬菇",
+  "生菜(包食物用)",
+  "蒜蓉醬",
+  "蜜糖",
+  "錫紙",
+  "抹手紙",
+  "碟",
+  "筷子",
+  "BBQ夾"
+];
+
+const menuBB = [
+  "8位起",
+  "游水大海虾",
+  "聖子皇",
+  "10頭大連鲍魚",
+  "本地大蜆",
+  "土匪雞中亦",
+  "蒜香雞扒",
+  "馬來沙嗲豬肉串8串装",
+  "韓式燒汁牛柳條",
+  "咖哩尤魚翼",
+  "香草蜜糖金沙骨",
+  "廚C腸仔",
+  "墨魚丸",
+  "龍虾丸",
+  "芝士丸",
+  "和牛牛丸",
+  "玉米",
+  "金菇",
+  "蕃薯",
+  "生菜(包食物用)",
+  "蒜蓉醬",
+  "蜜糖",
+  "錫紙",
+  "抹手紙",
+  "碟",
+  "筷子",
+  "BBQ夾"
+];
+
+const menuA = [
+  "8位起",
+  "厚肉元貝",
+  "北寄貝",
+  "游水大海虾",
+  "10頭大連鲍魚",
+  "本地大蜆",
+  "蒜蓉雞中亦",
+  "土匪雞中亦",
+  "黑椒有骨豬扒",
+  "蜜汁雞扒",
+  "孜然雞肉串8串装",
+  "馬來沙嗲豬肉串8串装",
+  "黑椒牛仔骨",
+  "咖哩尤魚翼",
+  "香草蜜糖金沙骨",
+  "粗红腸",
+  "廚C腸仔",
+  "墨魚丸",
+  "炸魚旦",
+  "芝士丸",
+  "和牛牛丸",
+  "玉米",
+  "金菇",
+  "茄子",
+  "鮮冬菇",
+  "生菜(包食物用)",
+  "蒜蓉醬",
+  "蜜糖",
+  "錫紙",
+  "抹手紙",
+  "碟",
+  "筷子",
+  "BBQ夾"
+];
 
 export default function Home() {
   return (
@@ -67,10 +164,10 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="mb-4 text-xl font-semibold text-orange-600">
-                  全港最Fresh海鮮
+                  頂級海鮮食材
                 </h3>
                 <p className="text-gray-700">
-                  元貝、鮑魚、大蝦即日鮮送，拒絕雪藏貨！
+                  嚴選優質元貝、鮑魚、大蝦，品質保證！
                 </p>
               </div>
             </div>
@@ -121,10 +218,10 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="mb-4 text-xl font-semibold text-orange-600">
-                  百萬好評
+                  專業信譽
                 </h3>
                 <p className="text-gray-700">
-                  香港10,000+家庭/企業首選，OpenRice討論區熱推！
+                  香港知名企業及商務宴會指定之選，深受各界信賴！
                 </p>
               </div>
             </div>
@@ -162,10 +259,11 @@ export default function Home() {
                   <li>✨ 游水大蝦</li>
                   <li>✨ 10頭鮑魚</li>
                   <li>✨ 黑椒西冷牛扒</li>
-                  <li>✨ 共16款食材</li>
+                  <li>✨ 共27款食材及用具</li>
                 </ul>
+                <MenuAccordion items={menuAA} className="mb-4" />
                 <p className="mb-4 text-sm text-gray-600">
-                  8位價＝$2,304｜人均一杯咖啡錢嘆豪華燒烤！
+                  8位價＝$2,304｜豐富海鮮配料，超值享受！
                 </p>
                 <WhatsAppButton
                   phoneNumber="85259727945"
@@ -196,15 +294,16 @@ export default function Home() {
                   <li>💥 聖子皇</li>
                   <li>💥 韓式牛柳條</li>
                   <li>💥 金沙骨</li>
-                  <li>💥 東南亞風味沙嗲串x8</li>
-                  <li>💥 食肉獸必搶</li>
+                  <li>💥 馬來沙嗲串</li>
+                  <li>💥 共27款食材及用具</li>
                 </ul>
+                <MenuAccordion items={menuBB} className="mb-4" />
                 <p className="mb-4 text-sm text-gray-600">
-                  8位價＝$2,304｜加$200升級師傅即場炭燒！
+                  8位價＝$2,304｜歡迎查詢專業師傅到會服務！
                 </p>
                 <WhatsAppButton
                   phoneNumber="85259727945"
-                  message="你好，我想訂購海鮮BBQ餐BB（$288/位）"
+                  message="你好，我想訂購海鮮BBQ餐BB（$288/位），同時了解師傅到會服務"
                   className="w-full"
                 >
                   立即預訂
@@ -231,9 +330,10 @@ export default function Home() {
                   <li>🌟 北寄貝</li>
                   <li>🌟 雙味雞翼</li>
                   <li>🌟 牛仔骨</li>
-                  <li>🌟 22款食材</li>
-                  <li>🌟 贈送秘製蒜蓉醬+生菜包</li>
+                  <li>🌟 32款食材及用具</li>
+                  <li>🌟 贈送秘製蒜蓉醬</li>
                 </ul>
+                <MenuAccordion items={menuA} className="mb-4" />
                 <p className="mb-4 text-sm text-gray-600">
                   8位價＝$2,520｜宴客體面之選！
                 </p>
@@ -268,41 +368,41 @@ export default function Home() {
               </div>
               <div className="p-6 text-center">
                 <h3 className="mb-4 text-2xl font-bold text-yellow-600">
-                  獨家優惠
+                  限時優惠
                 </h3>
-                <p>首單輸入「SEAFOOD100」即減$100！</p>
+                <p>全港免運費！8位起即可享受！</p>
               </div>
             </div>
             <div className="overflow-hidden rounded-lg bg-gradient-to-br from-yellow-50 to-yellow-100 shadow-lg">
               <div className="relative h-40 w-full">
                 <Image
                   src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="快速確認"
+                  alt="專業服務"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6 text-center">
                 <h3 className="mb-4 text-2xl font-bold text-yellow-600">
-                  極速確認
+                  專業服務
                 </h3>
-                <p>早上訂，最快當日送貨（須視乎地區）</p>
+                <p>提前兩天預訂，確保最佳服務質素！</p>
               </div>
             </div>
             <div className="overflow-hidden rounded-lg bg-gradient-to-br from-yellow-50 to-yellow-100 shadow-lg">
               <div className="relative h-40 w-full">
                 <Image
                   src="https://images.unsplash.com/photo-1434626881859-194d67b2b86f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="品質保證"
+                  alt="信譽保證"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6 text-center">
                 <h3 className="mb-4 text-2xl font-bold text-yellow-600">
-                  100%滿意保證
+                  信譽保證
                 </h3>
-                <p>食材不新鮮？無條件退款！</p>
+                <p>專業商務宴會首選，大型企業指定合作夥伴！</p>
               </div>
             </div>
           </div>
@@ -327,9 +427,9 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <p className="mb-4 text-lg italic">
-                  「鮑魚彈牙到震！師傅燒嘅雞翼仲好過大排檔！」
+                  「一班朋友開Party叫左個海鮮BBQ餐，啲海鮮新鮮到爆！全部工具齊晒，完全唔使操心！」
                 </p>
-                <p className="text-right font-semibold">——銅鑼灣陳太</p>
+                <p className="text-right font-semibold">——跑馬地住宅Party</p>
               </div>
             </div>
             <div className="overflow-hidden rounded-xl bg-white shadow-lg">
@@ -371,29 +471,28 @@ export default function Home() {
               <h3 className="mb-4 text-2xl font-bold">1. 選擇套餐</h3>
             </div>
             <div>
-              <h3 className="mb-4 text-2xl font-bold">2. 填寫送貨時間</h3>
+              <h3 className="mb-4 text-2xl font-bold">2. 告訴我們您的需求</h3>
             </div>
             <div>
-              <h3 className="mb-4 text-2xl font-bold">3. 坐等新鮮直送！</h3>
+              <h3 className="mb-4 text-2xl font-bold">3. 坐等美食送上門！</h3>
             </div>
           </div>
           <div className="space-y-4">
-            <p className="text-xl">📱 電話訂購：XXXX-XXXX（優先處理）</p>
             <p className="text-xl">
-              💻 網上落單：30秒填表，專人即Confirm！
+              💬 WhatsApp落單：點擊下方按鈕，專人即時回覆！
             </p>
           </div>
           <div className="mt-8">
             <WhatsAppButton
               phoneNumber="85259727945"
-              message="你好，我想了解更多BBQ到會服務詳情"
+              message="你好，我想訂購BBQ到會"
               className="text-lg font-semibold"
             >
-              立即下單
+              立即落單
             </WhatsAppButton>
           </div>
           <p className="mt-8 text-sm">
-            ⚠️ 注意：平安夜/年三十等旺季檔期已爆滿70%，早訂早鎖定！
+            ⚠️ 注意：請提前至少兩天預訂，以確保食材新鮮度及服務質素
           </p>
         </div>
       </section>
