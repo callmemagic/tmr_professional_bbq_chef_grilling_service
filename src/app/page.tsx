@@ -1,3 +1,5 @@
+"use client";
+
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 import Image from "next/image";
 
