@@ -2,6 +2,8 @@
 
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 import { MenuAccordion } from "@/components/ui/menu-accordion";
+import { TestimonialCarousel } from "@/components/ui/testimonial-carousel";
+import { EventGallery } from "@/components/ui/event-gallery";
 import Image from "next/image";
 
 const menuAA = [
@@ -100,6 +102,21 @@ const menuA = [
   "BBQ夾"
 ];
 
+const testimonialImages = [
+  "/images/Testimonials/1.jpg",
+  "/images/Testimonials/2.jpg",
+  "/images/Testimonials/3.jpg",
+  "/images/Testimonials/4.jpg",
+  "/images/Testimonials/5.jpg",
+  "/images/Testimonials/6.jpg",
+  "/images/Testimonials/7.jpg",
+  "/images/Testimonials/8.jpg",
+  "/images/Testimonials/9.jpg",
+  "/images/Testimonials/10.jpg",
+];
+
+const allEventImages = Array.from({ length: 33 }, (_, i) => `/images/Event/${i + 1}.jpg`);
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
@@ -122,10 +139,10 @@ export default function Home() {
             香港頂級海鮮BBQ到會
           </h1>
           <h2 className="mb-6 text-2xl font-semibold text-yellow-400 md:text-3xl">
-            米芝蓮級燒烤體驗直送到府
+            服務全港大型企業，經驗鑄就專業到會品質
           </h2>
           <p className="mb-8 text-xl text-white md:text-2xl">
-            免運費｜8位起｜專業BBQ師傅上門服務（另洽）
+            8位起｜專業BBQ師傅上門服務（另洽）
           </p>
           <div className="flex gap-4">
             <WhatsAppButton
@@ -200,10 +217,10 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="mb-4 text-xl font-semibold text-orange-600">
-                  師傅到會服務
+                  師傅上門代烤服務(跟公司套餐)
                 </h3>
                 <p className="text-gray-700">
-                  米芝蓮酒店級燒烤達人上門，您只需坐定等食！
+                  星级BBQ烤肉達人上門，您只需坐定定等食
                 </p>
               </div>
             </div>
@@ -221,7 +238,7 @@ export default function Home() {
                   專業信譽
                 </h3>
                 <p className="text-gray-700">
-                  香港知名企業及商務宴會指定之選，深受各界信賴！
+                  全港多間知名企業，團體及私人派對指定之選，深受他們的支持及信任
                 </p>
               </div>
             </div>
@@ -252,7 +269,7 @@ export default function Home() {
                 <div className="mb-4 rounded-lg bg-orange-100 px-4 py-2 text-orange-600">
                   人氣No.1
                 </div>
-                <h3 className="mb-2 text-2xl font-bold">海鮮BBQ餐 AA</h3>
+                <h3 className="mb-2 text-2xl font-bold">海鮮BBQ餐 AA (8位起)</h3>
                 <p className="mb-4 text-3xl font-bold text-orange-600">$288/位</p>
                 <ul className="mb-6 space-y-2">
                   <li>✨ 厚肉元貝</li>
@@ -288,7 +305,7 @@ export default function Home() {
                 <div className="mb-4 rounded-lg bg-orange-100 px-4 py-2 text-orange-600">
                   東南亞風味
                 </div>
-                <h3 className="mb-2 text-2xl font-bold">海鮮BBQ餐 BB</h3>
+                <h3 className="mb-2 text-2xl font-bold">海鮮BBQ餐 BB (8位起)</h3>
                 <p className="mb-4 text-3xl font-bold text-orange-600">$288/位</p>
                 <ul className="mb-6 space-y-2">
                   <li>💥 聖子皇</li>
@@ -324,7 +341,7 @@ export default function Home() {
                 <div className="mb-4 rounded-lg bg-orange-100 px-4 py-2 text-orange-600">
                   頂配之選
                 </div>
-                <h3 className="mb-2 text-2xl font-bold">海鮮BBQ餐 A</h3>
+                <h3 className="mb-2 text-2xl font-bold">海鮮BBQ餐 A (8位起)</h3>
                 <p className="mb-4 text-3xl font-bold text-orange-600">$315/位</p>
                 <ul className="mb-6 space-y-2">
                   <li>🌟 北寄貝</li>
@@ -360,8 +377,8 @@ export default function Home() {
             <div className="overflow-hidden rounded-lg bg-gradient-to-br from-yellow-50 to-yellow-100 shadow-lg">
               <div className="relative h-40 w-full">
                 <Image
-                  src="https://images.unsplash.com/photo-1607082349566-187342175e2f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="優惠"
+                  src="/images/3reasons/emerson-vieira-3wzps8KbdCQ-unsplash.jpg"
+                  alt="限時優惠 - 豐富烤海鮮"
                   fill
                   className="object-cover"
                 />
@@ -370,14 +387,16 @@ export default function Home() {
                 <h3 className="mb-4 text-2xl font-bold text-yellow-600">
                   限時優惠
                 </h3>
-                <p>全港免運費！8位起即可享受！</p>
+                <p>
+                  贈品5選2：長法包/菠蘿/泰式海鮮汁/香茅雞翼(試)/棉花糖
+                </p>
               </div>
             </div>
             <div className="overflow-hidden rounded-lg bg-gradient-to-br from-yellow-50 to-yellow-100 shadow-lg">
               <div className="relative h-40 w-full">
                 <Image
-                  src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="專業服務"
+                  src="/images/3reasons/james-kern-bnLqotJKxn4-unsplash.jpg"
+                  alt="專業服務 - 廚師專注代烤"
                   fill
                   className="object-cover"
                 />
@@ -386,14 +405,14 @@ export default function Home() {
                 <h3 className="mb-4 text-2xl font-bold text-yellow-600">
                   專業服務
                 </h3>
-                <p>提前兩天預訂，確保最佳服務質素！</p>
+                <p>一般私人派對必須最遲提前兩天預訂，確保為客人提供最佳服務質素</p>
               </div>
             </div>
             <div className="overflow-hidden rounded-lg bg-gradient-to-br from-yellow-50 to-yellow-100 shadow-lg">
               <div className="relative h-40 w-full">
                 <Image
-                  src="https://images.unsplash.com/photo-1434626881859-194d67b2b86f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="信譽保證"
+                  src="/images/3reasons/z-grills-australia-n0zK35d967w-unsplash.jpg"
+                  alt="信譽保證 - 品質食材與服務"
                   fill
                   className="object-cover"
                 />
@@ -402,53 +421,30 @@ export default function Home() {
                 <h3 className="mb-4 text-2xl font-bold text-yellow-600">
                   信譽保證
                 </h3>
-                <p>專業商務宴會首選，大型企業指定合作夥伴！</p>
+                <p>商務或員工聚餐首選，我們公司更成為大型企業或團體的長期指定合作夥伴</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Testimonials Section */}
+      {/* Testimonials Section - 改用輪播 */}
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4">
           <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">
             客戶真實評價
           </h2>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-            <div className="overflow-hidden rounded-xl bg-white shadow-lg">
-              <div className="relative h-48 w-full">
-                <Image
-                  src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="餐廳評價"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <p className="mb-4 text-lg italic">
-                  「一班朋友開Party叫左個海鮮BBQ餐，啲海鮮新鮮到爆！全部工具齊晒，完全唔使操心！」
-                </p>
-                <p className="text-right font-semibold">——跑馬地住宅Party</p>
-              </div>
-            </div>
-            <div className="overflow-hidden rounded-xl bg-white shadow-lg">
-              <div className="relative h-48 w-full">
-                <Image
-                  src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="企業活動"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <p className="mb-4 text-lg italic">
-                  「公司Team Building訂咗50人份，連HR都話要encore！」
-                </p>
-                <p className="text-right font-semibold">——中環IT公司</p>
-              </div>
-            </div>
-          </div>
+          <TestimonialCarousel imagePaths={testimonialImages} options={{ loop: true }} />
+        </div>
+      </section>
+
+      {/* Event Photos Section */}
+      <section className="bg-white py-16 md:py-24">
+        <div className="mx-auto max-w-7xl px-4">
+          <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">
+            🔥 精彩活動瞬間回顧 🔥
+          </h2>
+          <EventGallery imagePaths={allEventImages} />
         </div>
       </section>
 
@@ -486,7 +482,7 @@ export default function Home() {
             <WhatsAppButton
               phoneNumber="85259727945"
               message="你好，我想訂購BBQ到會"
-              className="text-lg font-semibold"
+              className="text-lg font-semibold shadow-xl"
             >
               立即落單
             </WhatsAppButton>
