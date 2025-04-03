@@ -253,7 +253,7 @@ export default function Home() {
             入門精選套餐
           </h2>
           <p className="mb-12 text-center text-xl text-orange-600">
-            限時免運費
+            限時優惠送贈品
           </p>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             <div className="overflow-hidden rounded-xl bg-white shadow-xl">
