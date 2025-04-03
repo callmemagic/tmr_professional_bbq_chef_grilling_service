@@ -124,22 +124,22 @@ export default function Home() {
       <section className="relative h-screen w-full">
         {/* Background Image */}
         <div className="absolute inset-0">
-          <Image
+        <Image
             src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
             alt="BBQ背景"
             fill
             className="object-cover brightness-50"
-            priority
-          />
+          priority
+        />
         </div>
 
         {/* Content */}
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
           <h1 className="mb-4 text-4xl font-bold text-white md:text-6xl lg:text-7xl">
-            香港頂級海鮮BBQ到會
+            香港優質海鮮BBQ到會
           </h1>
           <h2 className="mb-6 text-2xl font-semibold text-yellow-400 md:text-3xl">
-            服務全港大型企業，經驗鑄就專業到會品質
+            服務全港大型企業及私人派對，提供專業可靠的到會服務
           </h2>
           <p className="mb-8 text-xl text-white md:text-2xl">
             8位起｜專業BBQ師傅上門服務（另洽）
@@ -150,7 +150,7 @@ export default function Home() {
               message="你好，我想查詢BBQ到會服務詳情"
               className="text-lg font-semibold"
             >
-              立即查詢
+              立即WhatsApp查詢
             </WhatsAppButton>
             <WhatsAppButton
               phoneNumber="85259727945"
@@ -181,7 +181,7 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="mb-4 text-xl font-semibold text-orange-600">
-                  頂級海鮮食材
+                  優質海鮮食材
                 </h3>
                 <p className="text-gray-700">
                   嚴選優質元貝、鮑魚、大蝦，品質保證！
@@ -259,7 +259,7 @@ export default function Home() {
             <div className="overflow-hidden rounded-xl bg-white shadow-xl">
               <div className="relative h-56 w-full">
                 <Image
-                  src="https://images.unsplash.com/photo-1560717845-968823efbee1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src="/images/emerson-vieira-Mq1LDuswX2o-unsplash.jpg"
                   alt="海鮮BBQ餐AA"
                   fill
                   className="object-cover"
@@ -287,7 +287,7 @@ export default function Home() {
                   message="你好，我想訂購海鮮BBQ餐AA（$288/位）"
                   className="w-full"
                 >
-                  立即預訂
+                  立即WhatsApp查詢
                 </WhatsAppButton>
               </div>
             </div>
@@ -320,10 +320,10 @@ export default function Home() {
                 </p>
                 <WhatsAppButton
                   phoneNumber="85259727945"
-                  message="你好，我想訂購海鮮BBQ餐BB（$288/位），同時了解師傅到會服務"
+                  message="你好，我想訂購海鮮BBQ餐BB（$288/位）"
                   className="w-full"
                 >
-                  立即預訂
+                  立即WhatsApp查詢
                 </WhatsAppButton>
               </div>
             </div>
@@ -359,7 +359,7 @@ export default function Home() {
                   message="你好，我想訂購海鮮BBQ餐A（$315/位）"
                   className="w-full"
                 >
-                  立即預訂
+                  立即WhatsApp查詢
                 </WhatsAppButton>
               </div>
             </div>
@@ -451,7 +451,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="relative bg-gradient-to-br from-orange-500 to-red-600 py-16 text-white md:py-24">
         <div className="absolute inset-0">
-          <Image
+            <Image
             src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
             alt="BBQ背景"
             fill
@@ -484,7 +484,7 @@ export default function Home() {
               message="你好，我想訂購BBQ到會"
               className="text-lg font-semibold shadow-xl"
             >
-              立即落單
+              立即WhatsApp查詢
             </WhatsAppButton>
           </div>
           <p className="mt-8 text-sm">
@@ -492,6 +492,27 @@ export default function Home() {
           </p>
         </div>
       </section>
-    </main>
+
+      {/* More Options Section */}
+      <section className="bg-gray-100 py-12 md:py-16">
+        <div className="mx-auto max-w-4xl px-4 text-center">
+          <h2 className="mb-4 text-2xl font-bold text-gray-800 md:text-3xl">
+            需要更多選擇或大型宴會方案？
+          </h2>
+          <p className="mb-8 text-lg text-gray-600">
+            瀏覽我們的官方網站，探索更多套餐選項、自選食材以及為大型企業和團體量身定制的專業到會服務。
+          </p>
+          <a
+            href="https://tmrseafoodbbq.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-lg bg-orange-500 px-8 py-3 text-lg font-semibold text-white shadow-md transition hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
+          >
+            瀏覽官方網站
+          </a>
+        </div>
+      </section>
+
+      </main>
   );
 }
