@@ -157,7 +157,7 @@ export default function Home() {
               message="你好，我想了解BBQ師傅到會服務"
               className="text-lg font-semibold"
             >
-              查詢師傅到會
+              師傅到會
             </WhatsAppButton>
           </div>
         </div>
