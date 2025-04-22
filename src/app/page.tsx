@@ -169,7 +169,85 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
+      {/* Pain Points Section - 現在放在前面 */}
+      <section className="bg-gradient-to-r from-orange-50 to-yellow-50 py-16 md:py-24">
+        <div className="mx-auto max-w-7xl px-4">
+          <h2 className="mb-6 text-center text-3xl font-bold text-orange-700 md:text-4xl">
+            告別燒烤煩惱，享受無憂 BBQ 時光
+          </h2>
+          <p className="mb-12 text-center text-lg text-orange-600 md:text-xl">
+            香港人搞 BBQ 必遇到嘅煩惱，我們全部幫你解決！
+          </p>
+          
+          <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-8 md:gap-y-12">
+            {/* 痛點1 */}
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-600">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-6 w-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="mb-2 text-xl font-bold text-gray-900">搵齊材料好費時，四圍撲街採購累死人</h3>
+                <p className="text-gray-600">喺香港想搞 BBQ，要去街市買海鮮，超市買肉類，再去雜貨舖買工具，仲要自己準備醬料同餐具，又重又麻煩！我們一站式送齊晒所有食材餐具，完全唔使你四圍奔波！</p>
+              </div>
+            </div>
+            
+            {/* 痛點2 */}
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-600">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-6 w-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="mb-2 text-xl font-bold text-gray-900">食材品質參差，浪費金錢又影響心情</h3>
+                <p className="text-gray-600">平時自己買嘅海鮮新唔新鮮、肉質好唔好完全睇運氣，試過花大錢但食材質素麻麻。我們嚴選頂級食材，保證新鮮直送，絕不會再讓你失望！</p>
+              </div>
+            </div>
+            
+            {/* 痛點3 */}
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-600">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-6 w-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="mb-2 text-xl font-bold text-gray-900">自己燒自己食，無法真正享受派對樂趣</h3>
+                <p className="text-gray-600">搞 BBQ 本來想輕鬆享受，點知自己要負責燒嘢，全程無法放鬆參與聚會。我們專業師傅上門服務，代勞燒烤工作，讓你真正做個 VIP 賓客，完全投入派對氣氛！</p>
+              </div>
+            </div>
+            
+            {/* 痛點4 */}
+            <div className="flex gap-4">
+              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-600">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-6 w-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="mb-2 text-xl font-bold text-gray-900">成本計算難，預算經常超支</h3>
+                <p className="text-gray-600">自己搞 BBQ 好難計算實際花費，材料買太多會浪費，買太少又唔夠食，最後往往超支。我們套餐價格清晰透明，按人頭收費，無隱藏收費，讓你精準控制預算！</p>
+              </div>
+            </div>
+            
+            {/* 行動呼籲 */}
+            <div className="md:col-span-2 mt-8 text-center">
+              <p className="mb-6 text-lg font-semibold text-orange-700">唔使再煩惱！立即預訂我們的 BBQ 到會，一站式解決所有問題！</p>
+              <WhatsAppButton
+                phoneNumber="85259727945"
+                message="你好，我想了解BBQ到會服務，如何解決我搞BBQ嘅煩惱"
+                className="inline-block text-lg font-semibold shadow-xl"
+              >
+                即刻解決我嘅 BBQ 煩惱
+              </WhatsAppButton>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section - 現在放在第二位 */}
       <section className="bg-white py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4">
           <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">
@@ -252,85 +330,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pain Points Section - 新增 */}
-      <section className="bg-gradient-to-r from-orange-50 to-yellow-50 py-16 md:py-24">
-        <div className="mx-auto max-w-7xl px-4">
-          <h2 className="mb-6 text-center text-3xl font-bold text-orange-700 md:text-4xl">
-            告別燒烤煩惱，享受無憂 BBQ 時光
-          </h2>
-          <p className="mb-12 text-center text-lg text-orange-600 md:text-xl">
-            香港人搞 BBQ 必遇到嘅煩惱，我們全部幫你解決！
-          </p>
-          
-          <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-8 md:gap-y-12">
-            {/* 痛點1 */}
-            <div className="flex gap-4">
-              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-600">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-6 w-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                </svg>
-              </div>
-              <div>
-                <h3 className="mb-2 text-xl font-bold text-gray-900">搵齊材料好費時，四圍撲街採購累死人</h3>
-                <p className="text-gray-600">喺香港想搞 BBQ，要去街市買海鮮，超市買肉類，再去雜貨舖買工具，仲要自己準備醬料同餐具，又重又麻煩！我們一站式送齊晒所有食材餐具，完全唔使你四圍奔波！</p>
-              </div>
-            </div>
-            
-            {/* 痛點2 */}
-            <div className="flex gap-4">
-              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-600">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-6 w-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
-                </svg>
-              </div>
-              <div>
-                <h3 className="mb-2 text-xl font-bold text-gray-900">食材品質參差，浪費金錢又影響心情</h3>
-                <p className="text-gray-600">平時自己買嘅海鮮新唔新鮮、肉質好唔好完全睇運氣，試過花大錢但食材質素麻麻。我們嚴選頂級食材，保證新鮮直送，絕不會再讓你失望！</p>
-              </div>
-            </div>
-            
-            {/* 痛點3 */}
-            <div className="flex gap-4">
-              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-600">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-6 w-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
-                </svg>
-              </div>
-              <div>
-                <h3 className="mb-2 text-xl font-bold text-gray-900">自己燒自己食，無法真正享受派對樂趣</h3>
-                <p className="text-gray-600">搞 BBQ 本來想輕鬆享受，點知自己要負責燒嘢，全程無法放鬆參與聚會。我們專業師傅上門服務，代勞燒烤工作，讓你真正做個 VIP 賓客，完全投入派對氣氛！</p>
-              </div>
-            </div>
-            
-            {/* 痛點4 */}
-            <div className="flex gap-4">
-              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-600">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-6 w-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                </svg>
-              </div>
-              <div>
-                <h3 className="mb-2 text-xl font-bold text-gray-900">成本計算難，預算經常超支</h3>
-                <p className="text-gray-600">自己搞 BBQ 好難計算實際花費，材料買太多會浪費，買太少又唔夠食，最後往往超支。我們套餐價格清晰透明，按人頭收費，無隱藏收費，讓你精準控制預算！</p>
-              </div>
-            </div>
-            
-            {/* 行動呼籲 */}
-            <div className="md:col-span-2 mt-8 text-center">
-              <p className="mb-6 text-lg font-semibold text-orange-700">唔使再煩惱！立即預訂我們的 BBQ 到會，一站式解決所有問題！</p>
-              <WhatsAppButton
-                phoneNumber="85259727945"
-                message="你好，我想了解BBQ到會服務，如何解決我搞BBQ嘅煩惱"
-                className="inline-block text-lg font-semibold shadow-xl"
-              >
-                即刻解決我嘅 BBQ 煩惱
-              </WhatsAppButton>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Service Process Section - 新增完整服務流程 */}
+      {/* Service Process Section */}
       <section className="bg-orange-50 py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4">
           <h2 className="mb-4 text-center text-3xl font-bold text-orange-700 md:text-4xl">
