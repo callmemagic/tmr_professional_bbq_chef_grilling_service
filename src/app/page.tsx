@@ -404,8 +404,8 @@ export default function Home() {
                 </div>
                 <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-2">
                   <div className="order-2 md:order-1 md:text-right">
-                    <h3 className="mb-3 text-2xl font-bold text-orange-600">專業師傅服務 - 全程代勞燒烤工作</h3>
-                    <p className="text-lg text-gray-600">可選擇專業師傅上門服務，負責處理所有燒烤工作，讓您和客人無需動手，完全專注於享受美食與派對樂趣。師傅會根據食材特性調整火候及烹調時間，確保每款食物都能完美呈現。</p>
+                    <h3 className="mb-3 text-2xl font-bold text-orange-600">專業師傅服務 - 全程代勞燒烤工作（另洽）</h3>
+                    <p className="text-lg text-gray-600">可額外選擇專業師傅上門服務（需另洽收費），負責處理所有燒烤工作，讓您和客人無需動手，完全專注於享受美食與派對樂趣。師傅會根據食材特性調整火候及烹調時間，確保每款食物都能完美呈現。</p>
                   </div>
                   <div className="order-1 md:order-2">
                     <div className="overflow-hidden rounded-lg shadow-lg">
@@ -442,7 +442,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="mb-3 text-2xl font-bold text-orange-600">輕鬆收拾 - 告別善後煩惱</h3>
-                    <p className="text-lg text-gray-600">活動結束後，我們提供完整的清潔方案。選擇師傅服務時，師傅會負責處理所有現場善後工作，包括垃圾處理及場地基本整理。我們提供足夠的垃圾袋，讓您無需為收拾殘局而煩惱。</p>
+                    <p className="text-lg text-gray-600">活動結束後，我們提供完整的清潔方案。選擇師傅服務時（需另洽收費），師傅會負責處理所有現場善後工作，包括垃圾處理及場地基本整理。我們提供足夠的垃圾袋，讓您無需為收拾殘局而煩惱。</p>
                   </div>
                 </div>
               </div>
