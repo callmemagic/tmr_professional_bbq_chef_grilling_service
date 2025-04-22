@@ -262,6 +262,7 @@ export default function Home() {
             限時優惠送贈品
           </p>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+            {/* 第一個套餐 - 最便宜 */}
             <div className="overflow-hidden rounded-xl bg-white shadow-xl">
               <div className="relative h-56 w-full">
                 <Image
@@ -298,42 +299,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="overflow-hidden rounded-xl bg-white shadow-xl">
-              <div className="relative h-56 w-full">
-                <Image
-                  src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="海鮮BBQ餐C"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <div className="mb-4 rounded-lg bg-orange-100 px-4 py-2 text-orange-600">
-                  豪華盛宴
-                </div>
-                <h3 className="mb-2 text-2xl font-bold">海鮮BBQ餐 C (8位起)</h3>
-                <p className="mb-4 text-3xl font-bold text-orange-600">$395/位</p>
-                <ul className="mb-6 space-y-2">
-                  <li>💎 多款頂級海鮮</li>
-                  <li>💎 32款豐富食材</li>
-                  <li>💎 4種肉類選擇</li>
-                  <li>💎 精選燒烤小食</li>
-                  <li>💎 全套餐具齊全</li>
-                </ul>
-                <MenuAccordion items={menuC} className="mb-4" />
-                <p className="mb-4 text-sm text-gray-600">
-                  8位價＝$3,160｜豪華盛宴，滿足饕客！
-                </p>
-                <WhatsAppButton
-                  phoneNumber="85259727945"
-                  message="你好，我想訂購海鮮BBQ餐C（$395/位）"
-                  className="w-full"
-                >
-                  立即WhatsApp查詢
-                </WhatsAppButton>
-              </div>
-            </div>
-
+            {/* 第二個套餐 - 中等價格 */}
             <div className="overflow-hidden rounded-xl bg-white shadow-xl">
               <div className="relative h-56 w-full">
                 <Image
@@ -363,6 +329,43 @@ export default function Home() {
                 <WhatsAppButton
                   phoneNumber="85259727945"
                   message="你好，我想訂購海鮮BBQ餐A（$315/位）"
+                  className="w-full"
+                >
+                  立即WhatsApp查詢
+                </WhatsAppButton>
+              </div>
+            </div>
+
+            {/* 第三個套餐 - 最貴 */}
+            <div className="overflow-hidden rounded-xl bg-white shadow-xl">
+              <div className="relative h-56 w-full">
+                <Image
+                  src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="海鮮BBQ餐C"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <div className="mb-4 rounded-lg bg-orange-100 px-4 py-2 text-orange-600">
+                  豪華盛宴
+                </div>
+                <h3 className="mb-2 text-2xl font-bold">海鮮BBQ餐 C (8位起)</h3>
+                <p className="mb-4 text-3xl font-bold text-orange-600">$395/位</p>
+                <ul className="mb-6 space-y-2">
+                  <li>💎 多款頂級海鮮</li>
+                  <li>💎 32款豐富食材</li>
+                  <li>💎 4種肉類選擇</li>
+                  <li>💎 精選燒烤小食</li>
+                  <li>💎 全套餐具齊全</li>
+                </ul>
+                <MenuAccordion items={menuC} className="mb-4" />
+                <p className="mb-4 text-sm text-gray-600">
+                  8位價＝$3,160｜豪華盛宴，滿足饕客！
+                </p>
+                <WhatsAppButton
+                  phoneNumber="85259727945"
+                  message="你好，我想訂購海鮮BBQ餐C（$395/位）"
                   className="w-full"
                 >
                   立即WhatsApp查詢
