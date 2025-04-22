@@ -330,6 +330,165 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Service Process Section - 新增完整服務流程 */}
+      <section className="bg-orange-50 py-16 md:py-24">
+        <div className="mx-auto max-w-7xl px-4">
+          <h2 className="mb-4 text-center text-3xl font-bold text-orange-700 md:text-4xl">
+            一站式 BBQ 到會體驗，全程無憂
+          </h2>
+          <p className="mb-16 text-center text-lg text-orange-600 md:text-xl">
+            從落單到善後，我們全方位服務，讓您只需享受美食和歡樂時光
+          </p>
+
+          <div className="relative">
+            {/* 時間軸 */}
+            <div className="absolute left-1/2 top-0 h-full w-1 -translate-x-1/2 bg-orange-200 md:block"></div>
+
+            {/* 步驟1 */}
+            <div className="mb-16 md:mb-24">
+              <div className="relative flex flex-col items-center">
+                <div className="absolute left-1/2 z-10 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-orange-500 text-2xl font-bold text-white shadow-lg">
+                  1
+                </div>
+                <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-2">
+                  <div className="order-2 md:order-1 md:text-right">
+                    <h3 className="mb-3 text-2xl font-bold text-orange-600">輕鬆預訂 - 30秒快速下單</h3>
+                    <p className="text-lg text-gray-600">只需透過 WhatsApp 聯絡我們，專人即刻回覆，根據人數及預算提供建議。無需繁複表格，無需長時間等待。最遲提前兩天預訂，特殊日子建議提早一週確保位置。</p>
+                  </div>
+                  <div className="order-1 md:order-2">
+                    <div className="overflow-hidden rounded-lg shadow-lg">
+                      <Image
+                        src="https://images.unsplash.com/photo-1598550476439-6847785fcea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="在手機上預訂BBQ到會"
+                        width={600}
+                        height={400}
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* 步驟2 */}
+            <div className="mb-16 md:mb-24">
+              <div className="relative flex flex-col items-center">
+                <div className="absolute left-1/2 z-10 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-orange-500 text-2xl font-bold text-white shadow-lg">
+                  2
+                </div>
+                <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-2">
+                  <div className="md:text-left">
+                    <div className="overflow-hidden rounded-lg shadow-lg">
+                      <Image
+                        src="https://images.unsplash.com/photo-1607109793514-3075a25f2336?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="新鮮食材配送"
+                        width={600}
+                        height={400}
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="mb-3 text-2xl font-bold text-orange-600">準時送達 - 一次性送齊全部所需</h3>
+                    <p className="text-lg text-gray-600">我們會於活動當日指定時間前30-60分鐘將所有食材及用具送抵指定地點，無論離島、郊區都覆蓋。所有海鮮食材均由專業凍車運送，保證新鮮度。一次性送齊所有物資，避免您東奔西跑。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* 步驟3 */}
+            <div className="mb-16 md:mb-24">
+              <div className="relative flex flex-col items-center">
+                <div className="absolute left-1/2 z-10 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-orange-500 text-2xl font-bold text-white shadow-lg">
+                  3
+                </div>
+                <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-2">
+                  <div className="order-2 md:order-1 md:text-right">
+                    <h3 className="mb-3 text-2xl font-bold text-orange-600">專業師傅服務 - 全程代勞燒烤工作</h3>
+                    <p className="text-lg text-gray-600">可選擇專業師傅上門服務，負責處理所有燒烤工作，讓您和客人無需動手，完全專注於享受美食與派對樂趣。師傅會根據食材特性調整火候及烹調時間，確保每款食物都能完美呈現。</p>
+                  </div>
+                  <div className="order-1 md:order-2">
+                    <div className="overflow-hidden rounded-lg shadow-lg">
+                      <Image
+                        src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="專業師傅燒烤服務"
+                        width={600}
+                        height={400}
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* 步驟4 */}
+            <div className="mb-16 md:mb-24">
+              <div className="relative flex flex-col items-center">
+                <div className="absolute left-1/2 z-10 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-orange-500 text-2xl font-bold text-white shadow-lg">
+                  4
+                </div>
+                <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-2">
+                  <div className="md:text-left">
+                    <div className="overflow-hidden rounded-lg shadow-lg">
+                      <Image
+                        src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="輕鬆善後"
+                        width={600}
+                        height={400}
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="mb-3 text-2xl font-bold text-orange-600">輕鬆收拾 - 告別善後煩惱</h3>
+                    <p className="text-lg text-gray-600">活動結束後，我們提供完整的清潔方案。選擇師傅服務時，師傅會負責處理所有現場善後工作，包括垃圾處理及場地基本整理。我們提供足夠的垃圾袋，讓您無需為收拾殘局而煩惱。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* 步驟5 */}
+            <div>
+              <div className="relative flex flex-col items-center">
+                <div className="absolute left-1/2 z-10 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-orange-500 text-2xl font-bold text-white shadow-lg">
+                  5
+                </div>
+                <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-2">
+                  <div className="order-2 md:order-1 md:text-right">
+                    <h3 className="mb-3 text-2xl font-bold text-orange-600">售後服務 - 貼心回訪</h3>
+                    <p className="text-lg text-gray-600">活動後我們會主動聯繫您，了解活動體驗及意見反饋。針對任何問題提供即時跟進及解決方案。長期客戶更可享有特別優惠及提前預訂權益，確保節日期間仍能安排到優質服務。</p>
+                  </div>
+                  <div className="order-1 md:order-2">
+                    <div className="overflow-hidden rounded-lg shadow-lg">
+                      <Image
+                        src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="售後服務及優惠"
+                        width={600}
+                        height={400}
+                        className="h-full w-full object-cover"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* 行動呼籲 */}
+          <div className="mt-16 text-center">
+            <p className="mb-6 text-xl font-semibold text-orange-700">香港最無憂嘅BBQ到會體驗，全程專人跟進！</p>
+            <WhatsAppButton
+              phoneNumber="85259727945"
+              message="你好，我想了解貴公司的BBQ到會完整服務流程"
+              className="inline-block text-lg font-semibold shadow-xl"
+            >
+              立即了解完整服務詳情
+            </WhatsAppButton>
+          </div>
+        </div>
+      </section>
+
       {/* Packages Section */}
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4">
