@@ -36,34 +36,40 @@ const menuAA = [
   "BBQ夾"
 ];
 
-const menuBB = [
+const menuC = [
   "8位起",
-  "游水大海虾",
-  "聖子皇",
-  "10頭大連鲍魚",
-  "本地大蜆",
-  "土匪雞中亦",
-  "蒜香雞扒",
-  "馬來沙嗲豬肉串8串装",
-  "韓式燒汁牛柳條",
-  "咖哩尤魚翼",
-  "香草蜜糖金沙骨",
-  "廚C腸仔",
-  "墨魚丸",
-  "龍虾丸",
-  "芝士丸",
-  "和牛牛丸",
-  "玉米",
-  "金菇",
-  "蕃薯",
-  "生菜(包食物用)",
-  "蒜蓉醬",
-  "蜜糖",
-  "錫紙",
-  "抹手紙",
-  "碟",
-  "筷子",
-  "BBQ夾"
+  "厚肉元貝 8只",
+  "北寄貝 8只",
+  "游水大海虾 8只",
+  "聖子皇 8只",
+  "10頭大連鲍魚 8只",
+  "本地大蜆 1斤",
+  "土匪雞中亦 1磅",
+  "蜜汁雞中亦 1磅",
+  "香茅有骨豬扒 1磅",
+  "蒜香雞扒 1磅",
+  "馬來沙嗲豬肉串8串装 1磅",
+  "韓式燒汁牛柳條 1磅",
+  "咖哩尤魚翼 1磅",
+  "泰式豬頸肉 1磅",
+  "粗红腸 1條",
+  "廚C腸仔 2包",
+  "墨魚丸 0.5磅",
+  "炸魚旦 0.5磅",
+  "芝士丸 0.5磅",
+  "和牛牛丸 0.5磅",
+  "玉米 3支",
+  "金菇 2包",
+  "茄子 2條",
+  "鮮冬菇 2份",
+  "生菜(包食物用) 1斤",
+  "蒜蓉醬 1",
+  "蜜糖 1",
+  "錫紙 1",
+  "抹手紙 1",
+  "碟 16只",
+  "筷子 16對",
+  "BBQ夾 2支"
 ];
 
 const menuA = [
@@ -296,31 +302,31 @@ export default function Home() {
               <div className="relative h-56 w-full">
                 <Image
                   src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="海鮮BBQ餐BB"
+                  alt="海鮮BBQ餐C"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6">
                 <div className="mb-4 rounded-lg bg-orange-100 px-4 py-2 text-orange-600">
-                  東南亞風味
+                  豪華盛宴
                 </div>
-                <h3 className="mb-2 text-2xl font-bold">海鮮BBQ餐 BB (8位起)</h3>
-                <p className="mb-4 text-3xl font-bold text-orange-600">$288/位</p>
+                <h3 className="mb-2 text-2xl font-bold">海鮮BBQ餐 C (8位起)</h3>
+                <p className="mb-4 text-3xl font-bold text-orange-600">$395/位</p>
                 <ul className="mb-6 space-y-2">
-                  <li>💥 聖子皇</li>
-                  <li>💥 韓式牛柳條</li>
-                  <li>💥 金沙骨</li>
-                  <li>💥 馬來沙嗲串</li>
-                  <li>💥 共27款食材及用具</li>
+                  <li>💎 多款頂級海鮮</li>
+                  <li>💎 32款豐富食材</li>
+                  <li>💎 4種肉類選擇</li>
+                  <li>💎 精選燒烤小食</li>
+                  <li>💎 全套餐具齊全</li>
                 </ul>
-                <MenuAccordion items={menuBB} className="mb-4" />
+                <MenuAccordion items={menuC} className="mb-4" />
                 <p className="mb-4 text-sm text-gray-600">
-                  8位價＝$2,304｜歡迎查詢專業師傅到會服務！
+                  8位價＝$3,160｜豪華盛宴，滿足饕客！
                 </p>
                 <WhatsAppButton
                   phoneNumber="85259727945"
-                  message="你好，我想訂購海鮮BBQ餐BB（$288/位）"
+                  message="你好，我想訂購海鮮BBQ餐C（$395/位）"
                   className="w-full"
                 >
                   立即WhatsApp查詢
