@@ -441,8 +441,8 @@ export default function Home() {
                     </div>
                   </div>
                   <div>
-                    <h3 className="mb-3 text-2xl font-bold text-orange-600">輕鬆收拾 - 告別善後煩惱</h3>
-                    <p className="text-lg text-gray-600">活動結束後，我們提供完整的清潔方案。選擇師傅服務時（需另洽收費），師傅會負責處理所有現場善後工作，包括垃圾處理及場地基本整理。我們提供足夠的垃圾袋，讓您無需為收拾殘局而煩惱。</p>
+                    <h3 className="mb-3 text-2xl font-bold text-orange-600">輕鬆收拾 - 基本善後準備</h3>
+                    <p className="text-lg text-gray-600">我們提供足夠的垃圾袋方便您處理廢物。如選擇師傅上門服務（需另洽收費），師傅會額外負責處理所有現場善後工作，包括垃圾處理及場地基本整理，讓您完全無需操心善後事宜。</p>
                   </div>
                 </div>
               </div>
