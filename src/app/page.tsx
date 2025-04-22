@@ -390,7 +390,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="mb-3 text-2xl font-bold text-orange-600">準時送達 - 一次性送齊全部所需</h3>
-                    <p className="text-lg text-gray-600">我們會於活動當日指定時間前30-60分鐘將所有食材及用具送抵指定地點，無論離島、郊區都覆蓋。所有海鮮食材均由專業凍車運送，保證新鮮度。一次性送齊所有物資，避免您東奔西跑。</p>
+                    <p className="text-lg text-gray-600">我們會於活動當日指定時間前30-60分鐘將所有食材及用具送抵指定地點，只要有馬路的地方都能送達，無論離島、郊區都覆蓋。所有海鮮食材均經過嚴格保鮮處理，確保新鮮度。一次性送齊所有物資，避免您東奔西跑。</p>
                   </div>
                 </div>
               </div>
