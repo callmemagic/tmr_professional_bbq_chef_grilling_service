@@ -356,12 +356,12 @@ export default function Home() {
                     <p className="text-lg text-gray-600">只需透過 WhatsApp 聯絡我們，專人即刻回覆，根據人數及預算提供建議。無需繁複表格，無需長時間等待。最遲提前兩天預訂，特殊日子建議提早一週確保位置。</p>
                   </div>
                   <div className="order-1 md:order-2">
-                    <div className="overflow-hidden rounded-lg shadow-lg">
+                    <div className="overflow-hidden rounded-lg shadow-lg h-48">
                       <Image
-                        src="https://images.unsplash.com/photo-1598550476439-6847785fcea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        src="/images/step-by-step/輕鬆預訂-30秒快速下單.jpg"
                         alt="在手機上預訂BBQ到會"
-                        width={600}
-                        height={400}
+                        width={400}
+                        height={240}
                         className="h-full w-full object-cover"
                       />
                     </div>
@@ -378,12 +378,12 @@ export default function Home() {
                 </div>
                 <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-2">
                   <div className="md:text-left">
-                    <div className="overflow-hidden rounded-lg shadow-lg">
+                    <div className="overflow-hidden rounded-lg shadow-lg h-48">
                       <Image
-                        src="https://images.unsplash.com/photo-1607109793514-3075a25f2336?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        src="/images/step-by-step/準時送達-一次性送齊全部所需.jpg"
                         alt="新鮮食材配送"
-                        width={600}
-                        height={400}
+                        width={400}
+                        height={240}
                         className="h-full w-full object-cover"
                       />
                     </div>
@@ -408,12 +408,12 @@ export default function Home() {
                     <p className="text-lg text-gray-600">可額外選擇專業師傅上門服務（需另洽收費），負責處理所有燒烤工作，讓您和客人無需動手，完全專注於享受美食與派對樂趣。師傅會根據食材特性調整火候及烹調時間，確保每款食物都能完美呈現。</p>
                   </div>
                   <div className="order-1 md:order-2">
-                    <div className="overflow-hidden rounded-lg shadow-lg">
+                    <div className="overflow-hidden rounded-lg shadow-lg h-48">
                       <Image
-                        src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        src="/images/step-by-step/專業師傅服務-全程代勞燒烤工作-另洽.jpg"
                         alt="專業師傅燒烤服務"
-                        width={600}
-                        height={400}
+                        width={400}
+                        height={240}
                         className="h-full w-full object-cover"
                       />
                     </div>
@@ -430,19 +430,19 @@ export default function Home() {
                 </div>
                 <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-2">
                   <div className="md:text-left">
-                    <div className="overflow-hidden rounded-lg shadow-lg">
+                    <div className="overflow-hidden rounded-lg shadow-lg h-48">
                       <Image
-                        src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        src="/images/step-by-step/輕鬆收拾-基本善後準備.jpg"
                         alt="輕鬆善後"
-                        width={600}
-                        height={400}
+                        width={400}
+                        height={240}
                         className="h-full w-full object-cover"
                       />
                     </div>
                   </div>
                   <div>
                     <h3 className="mb-3 text-2xl font-bold text-orange-600">輕鬆收拾 - 基本善後準備</h3>
-                    <p className="text-lg text-gray-600">我們提供足夠的垃圾袋方便您處理廢物。如選擇師傅上門服務（需另洽收費），師傅會額外負責處理所有現場善後工作，包括垃圾處理及場地基本整理，讓您完全無需操心善後事宜。</p>
+                    <p className="text-lg text-gray-600">我們提供足夠的垃圾袋方便您處理廢物。如選擇師傅上門服務（需另洽收費），師傅會協助處理烹飪相關的清潔工作，如爐具清理、餐具整理等，減輕您的負擔。</p>
                   </div>
                 </div>
               </div>
@@ -460,12 +460,12 @@ export default function Home() {
                     <p className="text-lg text-gray-600">活動後我們會主動聯繫您，了解活動體驗及意見反饋。針對任何問題提供即時跟進及解決方案。長期客戶更可享有特別優惠及提前預訂權益，確保節日期間仍能安排到優質服務。</p>
                   </div>
                   <div className="order-1 md:order-2">
-                    <div className="overflow-hidden rounded-lg shadow-lg">
+                    <div className="overflow-hidden rounded-lg shadow-lg h-48">
                       <Image
-                        src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        src="/images/step-by-step/售後服務-貼心回訪.jpg"
                         alt="售後服務及優惠"
-                        width={600}
-                        height={400}
+                        width={400}
+                        height={240}
                         className="h-full w-full object-cover"
                       />
                     </div>
