@@ -242,7 +242,7 @@ export default function Home() {
             {/* 行動呼籲 */}
             <div className="md:col-span-2 mt-8 text-center">
               <p className="mb-6 text-lg font-semibold text-orange-700">唔使再煩惱！立即預訂我們的 BBQ 到會，一站式解決所有問題！</p>
-              <p className="mb-6 text-lg font-semibold text-orange-700">重新找回與親友相聚的歡樂時光，做真正的主人，不再做燒烤的「奴隸」！</p>
+              <p className="mb-6 text-lg font-semibold text-orange-700">重新找回與親友相聚的歡樂時光，做真正的主人，暢享無憂的派對時刻！</p>
               <WhatsAppButton
                 phoneNumber="85259727945"
                 message="你好，我想了解BBQ到會服務，如何解決我搞BBQ嘅煩惱"
