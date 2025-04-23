@@ -716,9 +716,15 @@ export default function Home() {
       {/* Event Photos Section */}
       <section className="bg-white py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4">
-          <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">
+          <h2 className="mb-4 text-center text-3xl font-bold text-orange-600 md:text-4xl">
             🔥 精彩活動瞬間回顧 🔥
           </h2>
+          <p className="mb-8 text-center text-lg text-gray-600 md:text-xl">
+            每場活動都是獨一無二的回憶。從企業年會到家庭慶典，從沙灘派對到屋頂BBQ，我們的服務足跡遍布香港各區。以下是客人分享的實際活動照片，見證我們如何將平凡的聚會變成難忘的盛宴。
+          </p>
+          <p className="mb-10 text-center text-base text-gray-500">
+            <span className="inline-block rounded-full bg-yellow-100 px-3 py-1 font-medium text-yellow-800">點擊或觸摸照片可放大</span> • <span className="font-semibold text-orange-600">已獲客戶授權展示</span>
+          </p>
           <EventGallery imagePaths={allEventImages} />
         </div>
       </section>
