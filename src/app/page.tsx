@@ -4,6 +4,7 @@ import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 import { MenuAccordion } from "@/components/ui/menu-accordion";
 import { TestimonialCarousel } from "@/components/ui/testimonial-carousel";
 import { EventGallery } from "@/components/ui/event-gallery";
+import { CountdownTimer } from "@/components/ui/countdown-timer";
 import Image from "next/image";
 
 const menuAA = [
@@ -126,8 +127,11 @@ const allEventImages = Array.from({ length: 33 }, (_, i) => `/images/Event/${i +
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
+      {/* Countdown Timer */}
+      <CountdownTimer />
+      
       {/* Hero Section */}
-      <section className="relative h-screen w-full">
+      <section className="relative h-screen w-full pt-16">
         {/* Background Image */}
         <div className="absolute inset-0">
         <Image
