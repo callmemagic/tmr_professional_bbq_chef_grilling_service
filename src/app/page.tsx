@@ -423,43 +423,13 @@ export default function Home() {
             </div>
 
             {/* 步驟4 */}
-            <div className="mb-16 md:mb-24">
+            <div>
               <div className="relative flex flex-col items-center">
                 <div className="absolute left-1/2 z-10 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-orange-500 text-2xl font-bold text-white shadow-lg">
                   4
                 </div>
                 <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-2">
                   <div className="md:text-left">
-                    <div className="overflow-hidden rounded-lg shadow-lg h-48">
-                      <Image
-                        src="/images/step-by-step/輕鬆收拾-基本善後準備.jpg"
-                        alt="輕鬆善後"
-                        width={400}
-                        height={240}
-                        className="h-full w-full object-cover"
-                      />
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="mb-3 text-2xl font-bold text-orange-600">輕鬆收拾 - 基本善後準備</h3>
-                    <p className="text-lg text-gray-600">我們提供足夠的垃圾袋方便您處理廢物。如選擇師傅上門服務（需另洽收費），師傅會協助處理烹飪相關的清潔工作，如爐具清理、餐具整理等，減輕您的負擔。</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* 步驟5 */}
-            <div>
-              <div className="relative flex flex-col items-center">
-                <div className="absolute left-1/2 z-10 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-orange-500 text-2xl font-bold text-white shadow-lg">
-                  5
-                </div>
-                <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-2">
-                  <div className="order-2 md:order-1 md:text-right">
-                    <h3 className="mb-3 text-2xl font-bold text-orange-600">售後服務 - 貼心回訪</h3>
-                    <p className="text-lg text-gray-600">活動後我們會主動聯繫您，了解活動體驗及意見反饋。針對任何問題提供即時跟進及解決方案。長期客戶更可享有特別優惠及提前預訂權益，確保節日期間仍能安排到優質服務。</p>
-                  </div>
-                  <div className="order-1 md:order-2">
                     <div className="overflow-hidden rounded-lg shadow-lg h-48">
                       <Image
                         src="/images/step-by-step/售後服務-貼心回訪.jpg"
@@ -469,6 +439,10 @@ export default function Home() {
                         className="h-full w-full object-cover"
                       />
                     </div>
+                  </div>
+                  <div>
+                    <h3 className="mb-3 text-2xl font-bold text-orange-600">售後服務 - 貼心回訪</h3>
+                    <p className="text-lg text-gray-600">活動後我們會主動聯繫您，了解活動體驗及意見反饋。針對任何問題提供即時跟進及解決方案。長期客戶更可享有特別優惠及提前預訂權益，確保節日期間仍能安排到優質服務。</p>
                   </div>
                 </div>
               </div>
