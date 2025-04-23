@@ -145,8 +145,11 @@ export default function Home() {
             香港優質海鮮BBQ到會
           </h1>
           <h2 className="mb-6 text-2xl font-semibold text-yellow-400 md:text-3xl">
-            服務全港大型企業及私人派對，提供專業可靠的到會服務
+            與摯愛共聚，在家享受五星級烤海鮮盛宴
           </h2>
+          <p className="mb-4 text-xl text-white md:text-2xl">
+            服務全港大型企業及私人派對，放下煩惱，活在當下
+          </p>
           <p className="mb-8 text-xl text-white md:text-2xl">
             8位起｜專業BBQ師傅上門服務（另洽）
           </p>
@@ -235,6 +238,7 @@ export default function Home() {
             {/* 行動呼籲 */}
             <div className="md:col-span-2 mt-8 text-center">
               <p className="mb-6 text-lg font-semibold text-orange-700">唔使再煩惱！立即預訂我們的 BBQ 到會，一站式解決所有問題！</p>
+              <p className="mb-6 text-lg font-semibold text-orange-700">重新找回與親友相聚的歡樂時光，做真正的主人，不再做燒烤的「奴隸」！</p>
               <WhatsAppButton
                 phoneNumber="85259727945"
                 message="你好，我想了解BBQ到會服務，如何解決我搞BBQ嘅煩惱"
@@ -500,6 +504,9 @@ export default function Home() {
                 <p className="mb-4 text-sm text-gray-600">
                   8位價＝$2,304｜豐富海鮮配料，超值享受！
                 </p>
+                <div className="mb-3 rounded-md bg-red-50 p-2 text-center">
+                  <p className="text-sm font-semibold text-red-600">🔥 月底前訂購享9折優惠！尚餘少量名額 🔥</p>
+                </div>
                 <WhatsAppButton
                   phoneNumber="85259727945"
                   message="你好，我想訂購海鮮BBQ餐AA（$288/位）"
@@ -537,6 +544,9 @@ export default function Home() {
                 <p className="mb-4 text-sm text-gray-600">
                   8位價＝$2,520｜宴客體面之選！
                 </p>
+                <div className="mb-3 rounded-md bg-red-50 p-2 text-center">
+                  <p className="text-sm font-semibold text-red-600">⚡ 平日下單額外再送手工甜品！最後3天 ⚡</p>
+                </div>
                 <WhatsAppButton
                   phoneNumber="85259727945"
                   message="你好，我想訂購海鮮BBQ餐A（$315/位）"
@@ -574,6 +584,9 @@ export default function Home() {
                 <p className="mb-4 text-sm text-gray-600">
                   8位價＝$3,160｜豪華盛宴，滿足饕客！
                 </p>
+                <div className="mb-3 rounded-md bg-red-50 p-2 text-center">
+                  <p className="text-sm font-semibold text-red-600">💎 頂級套餐限量供應，周末檔期即將售罄！💎</p>
+                </div>
                 <WhatsAppButton
                   phoneNumber="85259727945"
                   message="你好，我想訂購海鮮BBQ餐C（$395/位）"
@@ -609,6 +622,9 @@ export default function Home() {
                 </h3>
                 <p>
                   贈品5選2：長法包/菠蘿/泰式海鮮汁/香茅雞翼(試)/棉花糖
+                </p>
+                <p className="mt-3 font-semibold text-red-600">
+                  ⏰ 優惠至本月底！年度盛事日期已90%爆滿，即刻預訂鎖定心水日子
                 </p>
               </div>
             </div>
@@ -682,6 +698,9 @@ export default function Home() {
           <h2 className="mb-8 text-3xl font-bold md:text-4xl">
             立即行動！3步極速下單
           </h2>
+          <p className="mb-6 text-xl font-semibold">
+            與家人朋友共享美好時光，創造難忘回憶，無需親自勞累
+          </p>
           <div className="mb-12 grid grid-cols-1 gap-8 md:grid-cols-3">
             <div>
               <h3 className="mb-4 text-2xl font-bold">1. 選擇套餐</h3>
@@ -697,6 +716,9 @@ export default function Home() {
             <p className="text-xl">
               💬 WhatsApp落單：點擊下方按鈕，專人即時回覆！
             </p>
+            <p className="text-lg font-semibold text-yellow-300">
+              ⚠️ 旺季期間（聖誕、新年、復活節）預約從速，立即鎖定日期！
+            </p>
           </div>
           <div className="mt-8">
             <WhatsAppButton
@@ -708,7 +730,7 @@ export default function Home() {
             </WhatsAppButton>
           </div>
           <p className="mt-8 text-sm">
-            ⚠️ 注意：請提前至少兩天預訂，以確保食材新鮮度及服務質素
+            ⚠️ 注意：請提前至少兩天預訂，以確保食材新鮮度及服務質素。週末檔期準備提早一週截單，以免向隅！
           </p>
         </div>
       </section>
