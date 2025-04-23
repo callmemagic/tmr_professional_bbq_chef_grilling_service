@@ -360,7 +360,7 @@ export default function Home() {
                 </div>
                 <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-2">
                   <div className="order-2 md:order-1 md:text-right">
-                    <h3 className="mb-3 text-2xl font-bold text-orange-600">輕鬆預訂 - 最少30秒快速回覆</h3>
+                    <h3 className="mb-3 text-2xl font-bold text-orange-600">輕鬆預訂 - 最少30秒快速下單</h3>
                     <p className="text-lg text-gray-600">只需透過 WhatsApp 聯絡我們，專人即刻回覆，根據人數及預算提供建議。最遲提前兩天預訂，特殊日子建議提早一週以確保妥善安排。</p>
                   </div>
                   <div className="order-1 md:order-2">
