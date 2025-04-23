@@ -671,9 +671,44 @@ export default function Home() {
       {/* Testimonials Section - 改用輪播 */}
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4">
-          <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">
+          <h2 className="mb-4 text-center text-3xl font-bold md:text-4xl">
             客戶真實評價
           </h2>
+          <p className="mb-8 text-center text-lg text-gray-600 md:text-xl">
+            我們引以為傲的不止是美食，還有每位顧客的笑容和肯定。以下是真實客人透過WhatsApp分享的評價和反饋。
+          </p>
+          <div className="mb-10 grid grid-cols-1 gap-8 md:grid-cols-3">
+            <div className="rounded-lg bg-white p-6 shadow-md">
+              <div className="mb-4 flex items-center">
+                <div className="mr-3 flex h-10 w-10 items-center justify-center rounded-full bg-orange-100 text-orange-600">
+                  <span className="text-lg font-bold">A</span>
+                </div>
+                <h3 className="font-semibold">企業聚會客戶</h3>
+              </div>
+              <p className="italic text-gray-600">「海鮮超級新鮮，同事都讚不絕口！尤其是元貝同鮑魚，完全唔似平時自己買嘅質素，絕對超值，下次繼續預訂！」</p>
+            </div>
+            <div className="rounded-lg bg-white p-6 shadow-md">
+              <div className="mb-4 flex items-center">
+                <div className="mr-3 flex h-10 w-10 items-center justify-center rounded-full bg-orange-100 text-orange-600">
+                  <span className="text-lg font-bold">C</span>
+                </div>
+                <h3 className="font-semibold">家庭派對客戶</h3>
+              </div>
+              <p className="italic text-gray-600">「師傅服務一流，全程負責燒嘢，我哋一家人都可以放鬆享受派對。食材新鮮度完全超乎預期，會推薦比朋友！」</p>
+            </div>
+            <div className="rounded-lg bg-white p-6 shadow-md">
+              <div className="mb-4 flex items-center">
+                <div className="mr-3 flex h-10 w-10 items-center justify-center rounded-full bg-orange-100 text-orange-600">
+                  <span className="text-lg font-bold">L</span>
+                </div>
+                <h3 className="font-semibold">生日派對客戶</h3>
+              </div>
+              <p className="italic text-gray-600">「準時送達，一次過送晒所有嘢，無需再操心任何事！份量足，款式多，價錢合理，係我搞過最輕鬆嘅BBQ！」</p>
+            </div>
+          </div>
+          <p className="mb-8 text-center text-base text-gray-500">
+            滑動查看更多來自顧客的WhatsApp真實評價 👇
+          </p>
           <TestimonialCarousel imagePaths={testimonialImages} options={{ loop: true }} />
         </div>
       </section>
