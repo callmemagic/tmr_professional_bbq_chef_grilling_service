@@ -155,7 +155,7 @@ export default function Home() {
             服務全港大型企業及私人派對，放下煩惱，活在當下
           </p>
           <p className="mb-8 text-xl text-white md:text-2xl">
-            8位起｜專業BBQ師傅上門服務（另洽）
+            4位起｜專業BBQ師傅上門服務（另洽）
           </p>
           <div className="flex gap-4">
             <WhatsAppButton
@@ -195,8 +195,8 @@ export default function Home() {
                 </svg>
               </div>
               <div>
-                <h3 className="mb-2 text-xl font-bold text-gray-900">搵齊材料好費時，四圍撲街採購累死人</h3>
-                <p className="text-gray-600">喺香港想搞 BBQ，要去街市買海鮮，超市買肉類，再去雜貨舖買工具，仲要自己準備醬料同餐具，又重又麻煩！我們一站式送齊晒所有食材餐具，完全唔使你四圍奔波！</p>
+                <h3 className="mb-2 text-xl font-bold text-gray-900">約齊人搞BBQ好頭痛，一個人買嘢更加辛苦</h3>
+                <p className="text-gray-600">搞BBQ要約齊人已經好難，仲要一個人周圍去街市買海鮮、超市買肉類、雜貨舖買工具，又要自己準備醬料同餐具，一個人根本拎唔哂咁多嘢！我們一站式送齊晒所有食材餐具，等你專心約人就得！</p>
               </div>
             </div>
             
@@ -208,8 +208,8 @@ export default function Home() {
                 </svg>
               </div>
               <div>
-                <h3 className="mb-2 text-xl font-bold text-gray-900">食材品質參差，浪費金錢又影響心情</h3>
-                <p className="text-gray-600">平時自己買嘅海鮮新唔新鮮、肉質好唔好完全睇運氣，試過花大錢但食材質素麻麻。我們嚴選頂級食材，保證新鮮直送，絕不會再讓你失望！</p>
+                <h3 className="mb-2 text-xl font-bold text-gray-900">海鮮處理好麻煩，買返嚟仲要自己洗過</h3>
+                <p className="text-gray-600">買海鮮最煩就係要處理內臟，有時買返嚟發現未洗乾淨，又要自己花時間重新洗過，好嘥時間。我哋嘅海鮮全部經過專業處理，乾淨衛生，拎到即刻可以用，完全唔使煩惱！</p>
               </div>
             </div>
             
@@ -221,8 +221,8 @@ export default function Home() {
                 </svg>
               </div>
               <div>
-                <h3 className="mb-2 text-xl font-bold text-gray-900">自己燒自己食，無法真正享受派對樂趣</h3>
-                <p className="text-gray-600">搞 BBQ 本來想輕鬆享受，點知自己要負責燒嘢，全程無法放鬆參與聚會。我們專業師傅上門服務，代勞燒烤工作，讓你真正做個 VIP 賓客，完全投入派對氣氛！</p>
+                <h3 className="mb-2 text-xl font-bold text-gray-900">想做VIP賓客？BBQ師傅為你效勞</h3>
+                <p className="text-gray-600">搞BBQ唔一定要自己成身汗周圍走，等我哋專業師傅上門服務，為你打理一切燒烤工作，等你可以好似VIP咁專心同親朋好友傾偈、影相、玩遊戲！等我哋為你打造一個難忘嘅派對體驗！</p>
               </div>
             </div>
             
@@ -360,8 +360,8 @@ export default function Home() {
                 </div>
                 <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-2">
                   <div className="order-2 md:order-1 md:text-right">
-                    <h3 className="mb-3 text-2xl font-bold text-orange-600">輕鬆預訂 - 30秒快速下單</h3>
-                    <p className="text-lg text-gray-600">只需透過 WhatsApp 聯絡我們，專人即刻回覆，根據人數及預算提供建議。無需繁複表格，無需長時間等待。最遲提前兩天預訂，特殊日子建議提早一週確保位置。</p>
+                    <h3 className="mb-3 text-2xl font-bold text-orange-600">輕鬆預訂 - 最少30秒快速回覆</h3>
+                    <p className="text-lg text-gray-600">只需透過 WhatsApp 聯絡我們，專人即刻回覆，根據人數及預算提供建議。最遲提前兩天預訂，特殊日子建議提早一週以確保妥善安排。</p>
                   </div>
                   <div className="order-1 md:order-2">
                     <div className="overflow-hidden rounded-lg shadow-lg h-48">
@@ -398,7 +398,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="mb-3 text-2xl font-bold text-orange-600">準時送達 - 一次性送齊全部所需</h3>
-                    <p className="text-lg text-gray-600">我們會於活動當日指定時間前30-60分鐘將所有食材及用具送抵指定地點，只要有馬路的地方都能送達，無論離島、郊區都覆蓋。所有海鮮食材均經過嚴格保鮮處理，確保新鮮度。一次性送齊所有物資，避免您東奔西跑。</p>
+                    <p className="text-lg text-gray-600">我們會於活動當日指定時間前30-60分鐘將所有食材及用具送抵指定地點，只要係車輛可以到達嘅地方都能送達，無論離島、郊區都覆蓋。所有海鮮食材均經過嚴格保鮮處理，確保新鮮度。一次性送齊所有物資，避免您東奔西跑。</p>
                   </div>
                 </div>
               </div>
@@ -509,7 +509,7 @@ export default function Home() {
                   8位價＝$2,304｜豐富海鮮配料，超值享受！
                 </p>
                 <div className="mb-3 rounded-md bg-red-50 p-2 text-center">
-                  <p className="text-sm font-semibold text-red-600">🔥 月底前訂購享9折優惠！尚餘少量名額 🔥</p>
+                  <p className="text-sm font-semibold text-red-600">🎁 限時優惠：贈品5選2 - 長法包/菠蘿/泰式海鮮汁/香茅雞翼(試)/棉花糖 🎁</p>
                 </div>
                 <WhatsAppButton
                   phoneNumber="85259727945"
@@ -549,7 +549,7 @@ export default function Home() {
                   8位價＝$2,520｜宴客體面之選！
                 </p>
                 <div className="mb-3 rounded-md bg-red-50 p-2 text-center">
-                  <p className="text-sm font-semibold text-red-600">⚡ 平日下單額外再送手工甜品！最後3天 ⚡</p>
+                  <p className="text-sm font-semibold text-red-600">🎁 限時優惠：贈品5選2 - 長法包/菠蘿/泰式海鮮汁/香茅雞翼(試)/棉花糖 🎁</p>
                 </div>
                 <WhatsAppButton
                   phoneNumber="85259727945"
@@ -589,7 +589,7 @@ export default function Home() {
                   8位價＝$3,160｜豪華盛宴，滿足饕客！
                 </p>
                 <div className="mb-3 rounded-md bg-red-50 p-2 text-center">
-                  <p className="text-sm font-semibold text-red-600">💎 頂級套餐限量供應，周末檔期即將售罄！💎</p>
+                  <p className="text-sm font-semibold text-red-600">🎁 限時優惠：贈品5選2 - 長法包/菠蘿/泰式海鮮汁/香茅雞翼(試)/棉花糖 🎁</p>
                 </div>
                 <WhatsAppButton
                   phoneNumber="85259727945"
@@ -762,7 +762,7 @@ export default function Home() {
               💬 WhatsApp落單：點擊下方按鈕，專人即時回覆！
             </p>
             <p className="text-lg font-semibold text-yellow-300">
-              ⚠️ 旺季期間（聖誕、新年、復活節）預約從速，立即鎖定日期！
+              ⚠️ 旺季期間（農曆新年、復活節、端午節、中秋節、聖誕節）預約從速，立即鎖定日期！
             </p>
           </div>
           <div className="mt-8">
