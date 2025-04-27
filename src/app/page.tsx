@@ -122,7 +122,7 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="mb-2 text-xl font-bold text-gray-900">想做VIP賓客？BBQ師傅為你效勞</h3>
-                <p className="text-gray-600">搞BBQ唔一定要自己成身汗周圍走，等我哋專業師傅上門服務，為你打理一切燒烤工作，等你可以好似VIP咁專心同親朋好友傾偈、影相、玩遊戲！等我哋為你打造一個難忘嘅派對體驗！</p>
+                <p className="text-gray-600">搞BBQ唔一定要自己成身汗周圍走，我哋專業師傅上門服務已包含在套餐內，為你打理一切燒烤工作，等你可以好似VIP咁專心同親朋好友傾偈、影相、玩遊戲！等我哋為你打造一個難忘嘅派對體驗！</p>
               </div>
             </div>
             
@@ -209,10 +209,10 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="mb-4 text-xl font-semibold text-orange-600">
-                  師傅上門代烤服務(跟公司套餐)
+                  師傅上門代烤服務
                 </h3>
                 <p className="text-gray-700">
-                  星级BBQ烤肉達人上門，您只需坐定定等食
+                  星级BBQ烤肉達人上門，已包含在套餐內，您只需坐定定等食
                 </p>
               </div>
             </div>
@@ -312,13 +312,13 @@ export default function Home() {
                 </div>
                 <div className="mt-8 grid w-full grid-cols-1 gap-12 md:grid-cols-2">
                   <div className="order-2 md:order-1 md:text-right">
-                    <h3 className="mb-3 text-2xl font-bold text-orange-600">專業師傅服務 - 全程代勞燒烤工作（另洽）</h3>
-                    <p className="text-lg text-gray-600">可額外選擇專業師傅上門服務（需另洽收費），負責處理所有燒烤工作，讓您和客人無需動手，完全專注於享受美食與派對樂趣。師傅會根據食材特性調整火候及烹調時間，確保每款食物都能完美呈現。</p>
+                    <h3 className="mb-3 text-2xl font-bold text-orange-600">專業師傅服務 - 全程代勞燒烤工作</h3>
+                    <p className="text-lg text-gray-600">我們的專業師傅上門服務已包含在套餐內，負責處理所有燒烤工作，讓您和客人無需動手，完全專注於享受美食與派對樂趣。師傅會根據食材特性調整火候及烹調時間，確保每款食物都能完美呈現。</p>
                   </div>
                   <div className="order-1 md:order-2">
                     <div className="overflow-hidden rounded-lg shadow-lg h-48">
                       <Image
-                        src="/images/step-by-step/專業師傅服務-全程代勞燒烤工作-另洽.jpg"
+                        src="/images/step-by-step/專業師傅服務-全程代勞燒烤工作.jpg"
                         alt="專業師傅燒烤服務"
                         width={400}
                         height={240}
