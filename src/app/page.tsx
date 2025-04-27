@@ -146,31 +146,34 @@ export default function Home() {
         {/* Content */}
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
           <h1 className="mb-4 text-4xl font-bold text-white md:text-6xl lg:text-7xl">
-            香港優質海鮮BBQ到會
+            專業燒烤師傅 · 全程代烤服務
           </h1>
           <h2 className="mb-6 text-2xl font-semibold text-yellow-400 md:text-3xl">
-            與摯愛共聚，在家享受五星級烤海鮮盛宴
+            坐定定享受五星級烤海鮮盛宴 · 無須動手
           </h2>
           <p className="mb-4 text-xl text-white md:text-2xl">
-            服務全港大型企業及私人派對，放下煩惱，活在當下
+            資深BBQ師傅到場烹調｜新鮮海鮮｜無味精
           </p>
-          <p className="mb-8 text-xl text-white md:text-2xl">
-            4位起｜專業BBQ師傅上門服務（另洽）
+          <p className="mb-4 text-xl text-white md:text-2xl">
+            8位套餐 HKD 4,480｜<span className="text-yellow-400 font-semibold">即日登記減$100！</span>
+          </p>
+          <p className="mb-8 text-xl font-bold text-red-400 bg-black bg-opacity-50 px-4 py-2 rounded-full md:text-2xl">
+            ⚠️ 每日限兩個名額 ⚠️
           </p>
           <div className="flex gap-4">
             <WhatsAppButton
               phoneNumber="85259727945"
-              message="你好，我想查詢BBQ到會服務詳情"
+              message="你好，我想了解專業燒烤師傅全程代烤套餐（8位｜HKD 4,480），想確認今日是否還有名額"
               className="text-lg font-semibold"
             >
-              立即WhatsApp查詢
+              立即查詢代烤服務
             </WhatsAppButton>
             <WhatsAppButton
               phoneNumber="85259727945"
-              message="你好，我想了解BBQ師傅到會服務"
+              message="你好，我想了解BBQ師傅到會服務的可用日期，每日限兩個名額是否已滿？"
               className="text-lg font-semibold"
             >
-              師傅到會
+              查詢可用日期
             </WhatsAppButton>
           </div>
         </div>
@@ -180,10 +183,10 @@ export default function Home() {
       <section className="bg-gradient-to-r from-orange-50 to-yellow-50 py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4">
           <h2 className="mb-6 text-center text-3xl font-bold text-orange-700 md:text-4xl">
-            告別燒烤煩惱，享受無憂 BBQ 時光
+            告別自己動手的燒烤煩惱，享受專業師傅代烤服務
           </h2>
           <p className="mb-12 text-center text-lg text-orange-600 md:text-xl">
-            香港人搞 BBQ 必遇到嘅煩惱，我們全部幫你解決！
+            讓專業BBQ師傅處理所有燒烤工作，您只需與親友輕鬆享用美食！
           </p>
           
           <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-8 md:gap-y-12">
@@ -480,124 +483,62 @@ export default function Home() {
           <p className="mb-12 text-center text-xl text-orange-600">
             限時優惠送贈品
           </p>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-            {/* 第一個套餐 - 最便宜 */}
-            <div className="overflow-hidden rounded-xl bg-white shadow-xl">
-              <div className="relative h-56 w-full">
-                <Image
-                  src="/images/emerson-vieira-Mq1LDuswX2o-unsplash.jpg"
-                  alt="海鮮BBQ餐AA"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <div className="mb-4 rounded-lg bg-orange-100 px-4 py-2 text-orange-600">
-                  人氣No.1
-                </div>
-                <h3 className="mb-2 text-2xl font-bold">海鮮BBQ餐 AA (8位起)</h3>
-                <p className="mb-4 text-3xl font-bold text-orange-600">$288/位</p>
-                <ul className="mb-6 space-y-2">
-                  <li>✨ 厚肉元貝</li>
-                  <li>✨ 游水大蝦</li>
-                  <li>✨ 10頭鮑魚</li>
-                  <li>✨ 黑椒西冷牛扒</li>
-                  <li>✨ 共27款食材及用具</li>
-                </ul>
-                <MenuAccordion items={menuAA} className="mb-4" />
-                <p className="mb-4 text-sm text-gray-600">
-                  8位價＝$2,304｜豐富海鮮配料，超值享受！
-                </p>
-                <div className="mb-3 rounded-md bg-red-50 p-2 text-center">
-                  <p className="text-sm font-semibold text-red-600">🎁 限時優惠：贈品5選2 - 長法包/菠蘿/泰式海鮮汁/香茅雞翼(試)/棉花糖 🎁</p>
-                </div>
-                <WhatsAppButton
-                  phoneNumber="85259727945"
-                  message="你好，我想訂購海鮮BBQ餐AA（$288/位）"
-                  className="w-full"
-                >
-                  立即WhatsApp查詢
-                </WhatsAppButton>
-              </div>
+          
+          {/* 新套餐特別花框 - 使用highlight提高視覺效果 */}
+          <div className="mb-10 rounded-xl border-4 border-dashed border-orange-500 bg-gradient-to-r from-orange-50 to-yellow-50 p-6 md:p-8">
+            <div className="mb-4 text-center">
+              <span className="inline-block rounded-full bg-orange-500 px-6 py-2 text-lg font-bold text-white">📢【新套餐登場！】專業燒烤師傅全程代烤 🔥🍢</span>
             </div>
-
-            {/* 第二個套餐 - 中等價格 */}
-            <div className="overflow-hidden rounded-xl bg-white shadow-xl">
-              <div className="relative h-56 w-full">
-                <Image
-                  src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="海鮮BBQ餐A"
-                  fill
-                  className="object-cover"
-                />
+            <div className="md:flex md:gap-6">
+              <div className="mb-6 md:mb-0 md:w-1/3">
+                <div className="overflow-hidden rounded-xl aspect-square md:aspect-auto">
+                  <Image
+                    src="/images/daniel-l_IQP3BLFF0-unsplash.jpg"
+                    alt="專業燒烤師傅"
+                    width={400}
+                    height={400}
+                    className="h-full w-full object-cover"
+                  />
+                </div>
               </div>
-              <div className="p-6">
-                <div className="mb-4 rounded-lg bg-orange-100 px-4 py-2 text-orange-600">
-                  頂配之選
-                </div>
-                <h3 className="mb-2 text-2xl font-bold">海鮮BBQ餐 A (8位起)</h3>
-                <p className="mb-4 text-3xl font-bold text-orange-600">$315/位</p>
-                <ul className="mb-6 space-y-2">
-                  <li>🌟 北寄貝</li>
-                  <li>🌟 雙味雞翼</li>
-                  <li>🌟 牛仔骨</li>
-                  <li>🌟 32款食材及用具</li>
-                  <li>🌟 贈送秘製蒜蓉醬</li>
+              <div className="md:w-2/3">
+                <h3 className="mb-3 text-2xl font-bold text-orange-600">🎉 全新推出：海鮮BBQ餐A (8位｜HKD 4,480)</h3>
+                <ul className="mb-4 space-y-2 text-lg">
+                  <li className="flex items-start">
+                    <span className="mr-2 text-green-600">✅</span>
+                    <span><strong>專業BBQ師傅上門代烤</strong>｜輕鬆享受無憂派對</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 text-green-600">✅</span>
+                    <span><strong>新鮮海鮮 無味精</strong>｜品質保證</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 text-green-600">✅</span>
+                    <span><strong>市區零運費</strong>（有電梯）</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2 text-orange-500">🎁</span>
+                    <span><strong>額外贈送：</strong>長法包＋春雞半隻</span>
+                  </li>
                 </ul>
-                <MenuAccordion items={menuA} className="mb-4" />
-                <p className="mb-4 text-sm text-gray-600">
-                  8位價＝$2,520｜宴客體面之選！
-                </p>
-                <div className="mb-3 rounded-md bg-red-50 p-2 text-center">
-                  <p className="text-sm font-semibold text-red-600">🎁 限時優惠：贈品5選2 - 長法包/菠蘿/泰式海鮮汁/香茅雞翼(試)/棉花糖 🎁</p>
+                <div className="mb-4 rounded-md bg-red-50 p-3 text-center">
+                  <p className="text-lg font-bold text-red-600">💰 即日登記減$100！</p>
                 </div>
+                <div className="mb-4 rounded-md bg-yellow-50 p-3 text-center border-2 border-yellow-500 border-dashed">
+                  <p className="text-lg font-bold text-yellow-700">⚠️ 每日限兩個名額 ⚠️</p>
+                </div>
+                <p className="mb-3 text-lg">✨ 一站式服務，讓您專注與親友歡聚！</p>
+                <p className="mb-4 text-lg">不用自己動手燒，師傅專業處理燒烤火候<br/>讓每一道食物都完美呈現，VIP級別享受！</p>
+                <p className="font-medium text-orange-600">📅 優惠期：5月1日至5月31日</p>
+                <div className="mt-4">
                 <WhatsAppButton
                   phoneNumber="85259727945"
-                  message="你好，我想訂購海鮮BBQ餐A（$315/位）"
+                    message="你好，我想了解專業燒烤師傅全程代烤套餐（8位｜HKD 4,480），想確認今日是否還有名額"
                   className="w-full"
                 >
-                  立即WhatsApp查詢
+                    立即了解專業代烤套餐
                 </WhatsAppButton>
-              </div>
-            </div>
-
-            {/* 第三個套餐 - 最貴 */}
-            <div className="overflow-hidden rounded-xl bg-white shadow-xl">
-              <div className="relative h-56 w-full">
-                <Image
-                  src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="海鮮BBQ餐C"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <div className="mb-4 rounded-lg bg-orange-100 px-4 py-2 text-orange-600">
-                  豪華盛宴
                 </div>
-                <h3 className="mb-2 text-2xl font-bold">海鮮BBQ餐 C (8位起)</h3>
-                <p className="mb-4 text-3xl font-bold text-orange-600">$395/位</p>
-                <ul className="mb-6 space-y-2">
-                  <li>💎 多款頂級海鮮</li>
-                  <li>💎 32款豐富食材</li>
-                  <li>💎 4種肉類選擇</li>
-                  <li>💎 精選燒烤小食</li>
-                  <li>💎 全套餐具齊全</li>
-                </ul>
-                <MenuAccordion items={menuC} className="mb-4" />
-                <p className="mb-4 text-sm text-gray-600">
-                  8位價＝$3,160｜豪華盛宴，滿足饕客！
-                </p>
-                <div className="mb-3 rounded-md bg-red-50 p-2 text-center">
-                  <p className="text-sm font-semibold text-red-600">🎁 限時優惠：贈品5選2 - 長法包/菠蘿/泰式海鮮汁/香茅雞翼(試)/棉花糖 🎁</p>
-                </div>
-                <WhatsAppButton
-                  phoneNumber="85259727945"
-                  message="你好，我想訂購海鮮BBQ餐C（$395/位）"
-                  className="w-full"
-                >
-                  立即WhatsApp查詢
-                </WhatsAppButton>
               </div>
             </div>
           </div>
@@ -741,20 +682,23 @@ export default function Home() {
         </div>
         <div className="relative z-10 mx-auto max-w-7xl px-4 text-center">
           <h2 className="mb-8 text-3xl font-bold md:text-4xl">
-            立即行動！3步極速下單
+            立即行動！3步享受專業燒烤師傅服務
           </h2>
           <p className="mb-6 text-xl font-semibold">
-            與家人朋友共享美好時光，創造難忘回憶，無需親自勞累
+            讓專業師傅處理所有燒烤工作，您只需享受美食與歡聚時光
           </p>
+          <div className="mb-6 inline-block rounded-lg bg-yellow-400 px-6 py-3 text-xl font-bold text-red-700">
+            ⚠️ 每日僅限兩個預約名額 ⚠️
+          </div>
           <div className="mb-12 grid grid-cols-1 gap-8 md:grid-cols-3">
             <div>
-              <h3 className="mb-4 text-2xl font-bold">1. 選擇套餐</h3>
+              <h3 className="mb-4 text-2xl font-bold">1. 預約專業師傅</h3>
             </div>
             <div>
-              <h3 className="mb-4 text-2xl font-bold">2. 告訴我們您的需求</h3>
+              <h3 className="mb-4 text-2xl font-bold">2. 確認您的活動日期</h3>
             </div>
             <div>
-              <h3 className="mb-4 text-2xl font-bold">3. 坐等美食送上門！</h3>
+              <h3 className="mb-4 text-2xl font-bold">3. 坐等師傅到場服務！</h3>
             </div>
           </div>
           <div className="space-y-4">
@@ -762,20 +706,20 @@ export default function Home() {
               💬 WhatsApp落單：點擊下方按鈕，專人即時回覆！
             </p>
             <p className="text-lg font-semibold text-yellow-300">
-              ⚠️ 旺季期間（農曆新年、復活節、端午節、中秋節、聖誕節）預約從速，立即鎖定日期！
+              ⚠️ 優惠期有限（5月1日至5月31日）登記即減$100！立即鎖定日期！
             </p>
           </div>
           <div className="mt-8">
             <WhatsAppButton
               phoneNumber="85259727945"
-              message="你好，我想訂購BBQ到會"
+              message="你好，我想了解專業燒烤師傅全程代烤套餐（8位｜HKD 4,480），想確認今日是否還有名額"
               className="text-lg font-semibold shadow-xl"
             >
-              立即WhatsApp查詢
+              立即預約BBQ師傅
             </WhatsAppButton>
           </div>
           <p className="mt-8 text-sm">
-            ⚠️ 注意：請提前至少兩天預訂，以確保食材新鮮度及服務質素。週末檔期準備提早一週截單，以免向隅！
+            ⚠️ 注意：請提前至少一週預訂，以確保燒烤師傅檔期，特別日子建議提早兩週預約，避免向隅！每日僅限兩個師傅服務名額！
           </p>
         </div>
       </section>

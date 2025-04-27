@@ -45,7 +45,7 @@ export function CountdownTimer() {
   return (
     <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-red-600 to-orange-600 text-white py-2 px-4 shadow-md flex flex-col sm:flex-row items-center justify-center">
       <div className="flex items-center mr-4">
-        <span className="mr-2 text-yellow-200 font-bold">🔥 月底優惠倒計時：</span>
+        <span className="mr-2 text-yellow-200 font-bold">🔥 專業燒烤師傅優惠即將完結：</span>
         <div className="flex space-x-1">
           <div className="bg-black bg-opacity-30 px-2 py-1 rounded">
             <span className="font-mono font-bold">{days}</span>
@@ -66,13 +66,13 @@ export function CountdownTimer() {
         </div>
       </div>
       <div className="flex items-center mt-2 sm:mt-0">
-        <span className="mr-2 font-semibold">尚餘少量名額！WhatsApp即刻預留：</span>
+        <span className="mr-2 font-semibold">⚠️ <span className="text-yellow-200">每日限兩個名額</span> | 登記即減$100！</span>
         <WhatsAppButton
           phoneNumber="85259727945"
-          message="你好，我想預留BBQ到會服務"
+          message="你好，我想了解專業燒烤師傅全程代烤套餐（8位｜HKD 4,480），想確認是否還有名額"
           className="text-sm font-semibold py-1 px-3"
         >
-          即刻預留
+          立即預約師傅
         </WhatsAppButton>
       </div>
     </div>
