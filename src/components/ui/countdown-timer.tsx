@@ -45,7 +45,7 @@ export function CountdownTimer() {
   return (
     <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-red-600 to-orange-600 text-white py-2 px-4 shadow-md flex flex-col sm:flex-row items-center justify-center">
       <div className="flex items-center mr-4">
-        <span className="mr-2 text-yellow-200 font-bold">🔥 專業燒烤師傅優惠即將完結：</span>
+        <span className="mr-2 text-yellow-200 font-bold">🔥 優惠即將完結：</span>
         <div className="flex space-x-1">
           <div className="bg-black bg-opacity-30 px-2 py-1 rounded">
             <span className="font-mono font-bold">{days}</span>
