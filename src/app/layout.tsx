@@ -13,8 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TMR優質海鮮BBQ到會直送｜香港專業燒烤體驗",
-  description: "提供香港優質海鮮BBQ到會服務，專為大型企業及私人派對打造專業可靠的燒烤體驗。立即WhatsApp查詢！",
+  title: "【專業BBQ師傅到會】全程代烤服務｜新鮮海鮮｜無須動手｜每日限額",
+  description: "專業燒烤師傅上門代烤，一站式送齊所有食材及用具。新鮮海鮮無味精，8位套餐HKD4,480，即日登記減$100！適合天台、住宅花園、屋苑會所，企業及私人派對首選。立即WhatsApp查詢！",
+  openGraph: {
+    title: "【專業BBQ師傅到會】全程代烤服務｜新鮮海鮮｜無須動手",
+    description: "專業燒烤師傅上門代烤，一站式送齊食材用具。8位套餐$4,480，即日登記減$100！立即查詢！",
+    images: ['/images/daniel-l_IQP3BLFF0-unsplash.jpg'],
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
@@ -24,6 +30,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:title" content="【專業BBQ師傅到會】全程代烤服務｜新鮮海鮮｜無須動手" />
+        <meta property="og:description" content="專業燒烤師傅上門代烤，一站式送齊食材用具。8位套餐$4,480，即日登記減$100！立即查詢！" />
+        <meta property="og:image" content="https://tmrseafoodbbq.com/images/daniel-l_IQP3BLFF0-unsplash.jpg" />
+        <meta property="og:url" content="https://tmrseafoodbbq.com" />
+        <meta property="og:type" content="website" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
