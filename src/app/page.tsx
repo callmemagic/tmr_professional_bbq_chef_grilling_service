@@ -426,7 +426,7 @@ export default function Home() {
                 </div>
                 <p className="mb-3 text-lg">✨ 一站式服務，讓您專注與親友歡聚！</p>
                 <p className="mb-4 text-lg">不用自己動手燒，師傅專業處理燒烤火候<br/>讓每一道食物都完美呈現，VIP級別享受！</p>
-                <p className="font-medium text-orange-600">📅 優惠期：5月1日至5月31日</p>
+                <p className="font-medium text-orange-600">📅 優惠期：5月1日至6月30日</p>
                 <div className="mt-4">
                 <WhatsAppButton
                   phoneNumber="85259727945"
@@ -558,7 +558,7 @@ export default function Home() {
             🔥 精彩活動瞬間回顧 🔥
           </h2>
           <p className="mb-8 text-center text-lg text-gray-600 md:text-xl">
-            每場活動都是獨一無二的回憶。從企業年會到家庭慶典，從沙灘派對到屋頂BBQ，我們的服務足跡遍布香港各區。以下是客人分享的實際活動照片，見證我們如何將平凡的聚會變成難忘的盛宴。
+            每場活動都是獨一無二的回憶。從企業年會到家庭慶典，從天台屋頂、住宅花園到屋苑會所，我們的服務足跡遍布香港各區。以下是客人分享的實際活動照片，見證我們如何將平凡的聚會變成難忘的盛宴。
           </p>
           <p className="mb-10 text-center text-base text-gray-500">
             <span className="inline-block rounded-full bg-yellow-100 px-3 py-1 font-medium text-yellow-800">點擊或觸摸照片可放大</span> • <span className="font-semibold text-orange-600">已獲客戶授權展示</span>
@@ -595,7 +595,7 @@ export default function Home() {
               <h3 className="mb-4 text-2xl font-bold">2. 確認您的活動日期</h3>
             </div>
             <div>
-              <h3 className="mb-4 text-2xl font-bold">3. 坐等師傅到場服務！</h3>
+              <h3 className="mb-4 text-2xl font-bold">3. 安坐等師傅及食材到場</h3>
             </div>
           </div>
           <div className="space-y-4">
@@ -603,7 +603,7 @@ export default function Home() {
               💬 WhatsApp落單：點擊下方按鈕，專人即時回覆！
             </p>
             <p className="text-lg font-semibold text-yellow-300">
-              ⚠️ 優惠期有限（5月1日至5月31日）登記即減$100！立即鎖定日期！
+              ⚠️ 優惠期有限（5月1日至6月30日）登記即減$100！立即鎖定日期！
             </p>
           </div>
           <div className="mt-8">
