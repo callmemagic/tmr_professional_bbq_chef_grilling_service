@@ -426,7 +426,7 @@ export default function Home() {
                 </div>
                 <p className="mb-3 text-lg">✨ 一站式服務，讓您專注與親友歡聚！</p>
                 <p className="mb-4 text-lg">不用自己動手燒，師傅專業處理燒烤火候<br/>讓每一道食物都完美呈現，VIP級別享受！</p>
-                <p className="font-medium text-orange-600">📅 優惠期：5月1日至6月30日</p>
+                <p className="font-medium text-orange-600">📅 優惠期：即日至10月2日</p>
                 <div className="mt-4">
                 <WhatsAppButton
                   phoneNumber="85259727945"
@@ -466,7 +466,7 @@ export default function Home() {
                   贈品5選2：長法包/菠蘿/泰式海鮮汁/香茅雞翼(試)/棉花糖
                 </p>
                 <p className="mt-3 font-semibold text-red-600">
-                  ⏰ 優惠至本月底！年度盛事日期已90%爆滿，即刻預訂鎖定心水日子
+                  ⏰ 優惠至10月2日！年度盛事日期已90%爆滿，即刻預訂鎖定心水日子
                 </p>
               </div>
             </div>
@@ -603,7 +603,7 @@ export default function Home() {
               💬 WhatsApp落單：點擊下方按鈕，專人即時回覆！
             </p>
             <p className="text-lg font-semibold text-yellow-300">
-              ⚠️ 優惠期有限（5月1日至6月30日）登記即減$100！立即鎖定日期！
+              ⚠️ 優惠期有限（即日至10月2日）登記即減$100！立即鎖定日期！
             </p>
           </div>
           <div className="mt-8">
@@ -621,23 +621,53 @@ export default function Home() {
         </div>
       </section>
 
-      {/* More Options Section */}
-      <section className="bg-gray-100 py-12 md:py-16">
+      {/* Direct Order Section - 整合後的區塊 */}
+      <section className="bg-white py-12 md:py-16">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="mb-4 text-2xl font-bold text-gray-800 md:text-3xl">
-            需要更多選擇或大型宴會方案？
+            🛒 只想訂購食材，無需師傅代烤？
           </h2>
-          <p className="mb-8 text-lg text-gray-600">
-            瀏覽我們的官方網站，探索更多套餐選項、自選食材以及為大型企業和團體量身定制的專業到會服務。
+          <p className="mb-6 text-lg text-gray-600">
+            若您不需要 BBQ 師傅代烤服務，也可以直接於官方網站選好餐後，按 WhatsApp 連結，聯絡客戶服務訂購新鮮食材。
           </p>
-          <a
-            href="https://tmrseafoodbbq.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block rounded-lg bg-orange-500 px-8 py-3 text-lg font-semibold text-white shadow-md transition hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
-          >
-            瀏覽官方網站
-          </a>
+          <div className="mb-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
+            <p className="text-blue-800 font-medium">
+              💡 <strong>自煮方案：</strong> 我們提供新鮮海鮮、優質肉類及完整 BBQ 工具包，讓您在家也能享受專業級燒烤體驗！
+            </p>
+          </div>
+          
+          {/* 整合原本 More Options Section 的內容 */}
+          <div className="mb-8 p-4 bg-orange-50 rounded-lg border border-orange-200">
+            <h3 className="mb-3 text-xl font-bold text-orange-800">
+              🌟 需要更多選擇或大型宴會方案？
+            </h3>
+            <p className="text-orange-700">
+              瀏覽我們的官方網站，探索更多套餐選項、自選食材以及為大型企業和團體量身定制的專業到會服務。
+            </p>
+          </div>
+          
+          <div className="space-y-4">
+            <p className="text-gray-700">
+              立即前往官方網站選擇您喜歡的食材套餐
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="https://tmrseafoodbbq.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block rounded-lg bg-blue-500 px-6 py-3 text-lg font-semibold text-white shadow-md transition hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 min-w-[200px] text-center"
+              >
+                🌐 前往官方網站選購
+              </a>
+              <WhatsAppButton
+                phoneNumber="85259727945"
+                message="你好，我想了解直接訂購食材的選項，不需要師傅代烤服務"
+                className="!h-[52px] !px-6 !py-3 inline-block rounded-lg bg-green-500 text-lg font-semibold text-white shadow-md transition hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 min-w-[200px] text-center"
+              >
+                💬 WhatsApp 客服查詢
+              </WhatsAppButton>
+            </div>
+          </div>
         </div>
       </section>
 

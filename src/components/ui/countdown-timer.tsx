@@ -3,11 +3,19 @@
 import { useState, useEffect } from 'react';
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 
-// 設置結束日期為本月最後一天
+// 設置結束日期為10月2日
 const getEndDate = () => {
   const now = new Date();
-  const lastDay = new Date(now.getFullYear(), now.getMonth() + 1, 0);
-  return lastDay;
+  const currentYear = now.getFullYear();
+  // 設定為10月2日，如果今年的10月2日已過，則設定為明年的10月2日
+  let targetYear = currentYear;
+  const targetDate = new Date(currentYear, 9, 2); // 月份是0-based，所以9代表10月
+  
+  if (targetDate < now) {
+    targetYear = currentYear + 1;
+  }
+  
+  return new Date(targetYear, 9, 2);
 };
 
 export function CountdownTimer() {
