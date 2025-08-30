@@ -1,4 +1,5 @@
 // 客戶端事件追蹤
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const trackClientEvent = (eventName: string, eventData: any = {}) => {
   if (typeof window !== 'undefined' && (window as any).fbq) {
     (window as any).fbq('track', eventName, eventData);
@@ -6,6 +7,7 @@ export const trackClientEvent = (eventName: string, eventData: any = {}) => {
 };
 
 // 伺服器端事件追蹤
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const trackServerEvent = async (eventName: string, eventData: any = {}) => {
   try {
     const response = await fetch('/api/facebook', {
@@ -33,6 +35,7 @@ export const trackServerEvent = async (eventName: string, eventData: any = {}) =
 };
 
 // 同時追蹤客戶端和伺服器端事件
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const trackEvent = async (eventName: string, eventData: any = {}) => {
   // 客戶端追蹤
   trackClientEvent(eventName, eventData);
